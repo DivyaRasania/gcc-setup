@@ -26,8 +26,6 @@ if ($answer -eq "Y" -or $answer -eq "y") {
     choco install vscode -y
 }
 
-Start-Process -FilePath "%localappdata%\Programs\Microsoft VS Code\Code.exe"
-
 Start-Process -FilePath "https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools-extension-pack"
 Start-Process -FilePath "https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner"
 
