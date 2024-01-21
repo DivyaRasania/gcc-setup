@@ -1,5 +1,3 @@
-$currentPid = [System.Security.Principal.WindowsIdentity]::GetCurrent()
-$principal = new-object System.Security.Principal.WindowsPrincipal($currentPid)
 $newProcess = new-object System.Diagnostics.ProcessStartInfo "PowerShell";
 $newProcess.Arguments = $myInvocation.MyCommand.Definition;
 $newProcess.Verb = "runas";
