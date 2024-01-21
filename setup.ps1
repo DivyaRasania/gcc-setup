@@ -3,5 +3,9 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 choco install vscode -y
 choco install mingw -y
 
+code
+
 Start-Process -FilePath "https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools-extension-pack"
 Start-Process -FilePath "https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner"
+
+exit
