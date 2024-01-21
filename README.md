@@ -1,6 +1,6 @@
 # Setup Microsoft Visual Studio Code and C++ Compiler(gcc) in Windows 10/11
 --- 
-### How?
+### How to install?
 Open PowerShell window (doesn't matter admin or not) and enter `irm bit.ly/cpp-vscode-setup | iex`
 
 #### What will happen when you run this?
